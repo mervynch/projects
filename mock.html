@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <center> <bold><legend>Student Details </legend> </center></bold>
+    <form action="" >
+        <table align="center" style="background-color: purple;" >
+            <tr>
+                <td><label for="FIRST NAME">FIRST NAME :</label></td>
+                <td><input type="text" name="FIRST NAME" id="FIRST NAME"> (max 30 characters)</td>
+            </tr>
+            <tr>
+                <td><label for="LAST NAME">LAST NAME :</label></td>
+                <td><input type="text" name="LAST NAME" id="LAST NAME"> (max 30 characters)</td>
+            </tr>
+            <tr>
+                <td><label for="DOB">Date Of Birth :</label></td>
+                <td><input type="date" name="Date Of Birth" id="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="MOBILE_NUMBER">MOBILE NUMBER :</label></td>
+                <td><input type="number" name="MOBILE NUMBER" id="MOBILE_NUMBER"> (max 10 digits)</td>
+            </tr>
+            <tr>
+                <td><label>GENDER :</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ADDRESS">ADDRESS :</label></td>
+                <td><textarea name="ADDRESS" id="ADDRESS"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="PIN_CODE">PIN CODE :</label></td>
+                <td><input type="number" name="PIN CODE" id="PIN_CODE"> (6 digits)</td>
+            </tr>
+            <tr>
+                <td><label for="STATE">STATE :</label></td>
+                <td><input type="text" name="STATE" id="STATE"> (max 30 characters)</td>
+            </tr>
+            <tr>
+                <td><label for="COUNTRY">COUNTRY :</label></td>
+                <td><input type="text" name="COUNTRY" id="COUNTRY" placeholder="India"></td>
+            </tr>
+            <tr>
+                <td><label>HOBBIES :</label></td>
+                <td>
+                    <input type="checkbox" name="hobbies" id="drawing"> Drawing <input type="checkbox" name="hobbies" id="singing"> Singing <input type="checkbox" name="hobbies" id="dancing"> Dancing<input type="checkbox" name="hobbies" id="sketching"> Sketching
+                    <br><input type="checkbox" name="hobbies" id="others"> 
+                    Others  <br> <input type="text" name="others_hobby" id="others_hobby">
+                </td>
+            </tr>
+        
+            <tr>
+            <td >QUALIFICATION :</td>
+            <td>
+     
+        <table align="center" >
+            <tr>
+                
+                <td>SL.NO</td>
+                <td>Examination</td>
+                <td align="center">Board</td>
+                <td align="center">Percentage</td>
+                <td align="center">Year Of Passing</td>
+            
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="class_x_board" id="class_x_board"></td>
+                <td><input type="text" name="class_x_percentage" id="class_x_percentage"></td>
+                <td><input type="text" name="class_x_year" id="class_x_year"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td style="align-content: space-around;"><input type="text" name="class_xii_board" id="class_xii_board"></td>
+                <td><input type="text" name="class_xii_percentage" id="class_xii_percentage"></td>
+                <td><input type="text" name="class_xii_year" id="class_xii_year"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="graduation_board" id="graduation_board"></td>
+                <td><input type="text"  name="graduation_percentage" id="graduation_percentage"></td>
+                <td><input type="text" name="graduation_year" id="graduation_year"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="masters_board" id="masters_board" maxlength="10"></td>
+                <td><input type="text" name="masters_percentage" id="masters_percentage" maxlength="5"></td>
+                           <td><input type="text" name="masters_year" id="masters_year"></td>
+            </tr>
+        </td>
+    </table>
+            <br>
+            <tr>
+                <td><label>COURSES APPLIED FOR :</label></td>
+                <td>
+                    <input type="radio" name="course" id="bca" value="BCA"> BCA <input type="radio" name="course" id="bcom" value="BCom"> B.Com  <br> <input type="radio" name="course" id="bsc" value="BSc"> B.Sc <input type="radio" name="course" id="ba" value="BA"> B.A
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4"><button type="submit">Submit</button ><button type="reset">Reset</button></th>
+            </tr>
+            
+        </table>
+        </form>
